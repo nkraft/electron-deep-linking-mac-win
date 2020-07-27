@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "pack": "build --dir",
-    "dist": "build"
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "repository": "https://github.com/oikonomopo/electron-deep-linking-osx",
   "keywords": [
@@ -19,7 +19,7 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^5.0.1",
-    "electron-builder": "^20.40.2"
+    "electron-builder": "^21.2.0"
   },
   "build": {
     "appId": "oikonomopo.electron-deeplinking-macos-win32",
